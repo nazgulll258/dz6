@@ -1,0 +1,83 @@
+
+
+.lightMode {
+  background-color: #f0f0f0; 
+  color: black;
+}
+
+.darkMode {
+  background-color: #333;
+  color: #fff; 
+}
+
+.div-nav {
+  max-width: 1840px;
+  background-color:black ;
+  height: 70px;
+display: flex;
+align-items: center;
+justify-content: end;
+margin-top: -9px;
+}
+.div-nav-dark{
+  background-color: white;
+  max-width: 1840px;
+  background-color:black ;
+  height: 70px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: -9px;
+font-size: 24px;
+border: 2px solid white;
+}
+
+.div-nav-light{
+  background-color: black;
+  max-width: 1840px;
+  background-color:wheat ;
+  height: 70px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: -9px;
+font-size: 24px;
+}
+.div-nav button{
+  margin-top: -40px;
+font-size: 24px;
+width: 100px;
+text-wrap: nowrap;
+border: none solid;
+border-radius: 10px;
+
+}
+
+
+.dark{
+display: flex;
+justify-content: space-between;
+margin-top: 200px;
+background-color: black;
+color: white;
+
+}
+
+.light{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  background-color: white;
+  color: black;
+}
+
+.lights{
+  background-color: white;
+  height: 700px;
+
+}
+.darks{
+  background-color: black;
+  height: 700px;
+
+}
